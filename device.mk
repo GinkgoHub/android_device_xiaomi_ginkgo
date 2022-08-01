@@ -16,7 +16,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-    GinkgoMiuiCamera \
     GinkgoNoCutoutOverlay \
     NotchBarKiller \
     WillowFrameworkRes
@@ -91,7 +90,7 @@ TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 # Camera
-$(call inherit-product, vendor/miuicamera/config.mk)
+
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
