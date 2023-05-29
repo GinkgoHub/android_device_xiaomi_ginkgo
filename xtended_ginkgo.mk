@@ -31,6 +31,6 @@ $(call inherit-product, device/xiaomi/ginkgo/xtended.mk)
 PRODUCT_NAME := xtended_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 8/8T
+PRODUCT_MODEL := Redmi Note 8
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
